@@ -20,7 +20,8 @@ Each persona behaves differently:
 
 ## 🔗 Live Demo
 
-> Add your deployed frontend link here
+> Frontend: https://persona-ai-chatbot-phi.vercel.app/  
+> Backend: https://persona-chatbot-backend-uh2z.onrender.com/
 
 ---
 
@@ -122,4 +123,4 @@ persona-ai-chatbot/
 
 ## 🙌 Acknowledgement
 
-This project was built as part of the **Prompt Engineering** module at [Scaler Academy](https://www.scaler.com/).
+This project was built as part of the **Prompt Engineering** module at [Scaler School Of Technology](https://www.scaler.com/).
