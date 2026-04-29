@@ -121,6 +121,13 @@ persona-ai-chatbot/
 
 ---
 
+## 📸 Screenshots
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
+
 ## 🙌 Acknowledgement
 
 This project was built as part of the **Prompt Engineering** module at [Scaler School Of Technology](https://www.scaler.com/).
