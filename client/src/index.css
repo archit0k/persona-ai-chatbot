@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  background: #1e293b;
+  flex-wrap: wrap;
+}
+
+.header button {
+  padding: 8px 14px;
+  border: none;
+  background: #334155;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.header .active {
+  background: #38bdf8;
+  color: black;
+}
+
+/* Suggestion Chips */
+.chips {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  overflow-x: auto;
+  background: #020617;
+}
+
+.chips button {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  background: #1e293b;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.chips button:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+/* Chat */
+.chat {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Message bubbles */
+.user, .bot {
+  max-width: 70%;
+  padding: 10px 14px;
+  margin: 8px 0;
+  border-radius: 12px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+/* User message */
+.user {
+  align-self: flex-end;
+  background: #38bdf8;
+  color: black;
+  border-bottom-right-radius: 2px;
+}
+
+/* Bot message */
+.bot {
+  align-self: flex-start;
+  background: #1e293b;
+  border-bottom-left-radius: 2px;
+}
+
+/* Input */
+.input-box {
+  display: flex;
+  padding: 10px;
+  background: #1e293b;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.input-box button {
+  margin-left: 10px;
+  padding: 10px 16px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .user, .bot {
+    max-width: 85%;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-box button {
+    padding: 10px;
+  }
+}
